@@ -12,7 +12,6 @@ urllib2.install_opener(opener)
 
 #Change f3de5e180e4e754816f872ea7cbde9340055eb53 token to yours token
 standartHeader={'Content-type': 'application/json', 'Authorization': 'Bearer f3de5e180e4e754816f872ea7cbde9340055eb53'}
-list = []
 
 #create standart function for request performing
 def performRequest (jsonValues=None, headers=None):
